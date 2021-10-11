@@ -10,19 +10,31 @@ body {
     color: deeppink;
     font-family: 'Courier New', Courier, monospace;
     align-items: center;
+    font-size: 2rem;
 }
-.container {
-    margin: 20rem;
-    padding: 8rem;
-    border: 1rem dashed black;
+div {
+    display: inline-block;
+    width: 60rem;
+    height: auto;
     align-items: center;
     text-align: center;
 }
-div h1 {
-    padding: 4px;
-    font-size: 28px;
+.container, .cabecera {
+    background-color: lightyellow;
+    color: maroon;
+    width: cal(60rem - 1px);
+    border: 0.1rem solid black;
+    margin: 0.4rem;
+}
+.container {
+    background-color: whitesmoke;
+    margin-top: 0;
+}
+.container h1{
+    font-size: 3rem;
+    padding: 0.8rem;
+    color: purple;
 }
 div p {
-    padding: 4px;
-    font-size: 16px;
+    padding: 0.8rem;
 }
